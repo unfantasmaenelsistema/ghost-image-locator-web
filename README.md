@@ -3,6 +3,10 @@
 
 Versión **web estática** (GitHub Pages) de la herramienta de geolocalización e inteligencia geoespacial (GEOINT / OSINT). Se usa directamente desde el navegador, sin instalar nada. Permite cargar cualquier fotografía y deducir su ubicación en el mapa combinando **metadatos forenses EXIF** y el poder de **Google Gemini 3.8 Flash Multimodal Vision**.
 
+## 🚀 [Abrir GeoSpecter OSINT en el navegador →](https://unfantasmaenelsistema.github.io/ghost-image-locator-web/)
+
+**https://unfantasmaenelsistema.github.io/ghost-image-locator-web/** — no requiere instalación: abre el enlace, pulsa **"API Key"**, pega tu clave de Gemini y empieza a analizar fotos.
+
 > 💻 ¿Prefieres ejecutarla en tu equipo con la API key en un `.env`? Usa la versión local: [ghost-image-locator](https://github.com/unfantasmaenelsistema/ghost-image-locator).
 
 Sitio Web Oficial: [www.unfantasmaenelsistema.com](https://www.unfantasmaenelsistema.com/)
@@ -58,7 +62,7 @@ Sitio Web Oficial: [www.unfantasmaenelsistema.com](https://www.unfantasmaenelsis
 
 ## 🧭 Cómo se usa
 
-0. **Introduce tu API key** de Gemini con el botón **"API Key"** de la barra superior (solo la primera vez).
+0. **Abre la [web](https://unfantasmaenelsistema.github.io/ghost-image-locator-web/)** e introduce tu API key de Gemini con el botón **"API Key"** de la barra superior (solo la primera vez).
 1. **Carga una foto**: arrástrala a la zona de subida, pégala con `Ctrl+V` o elige una de la galería de muestras incluida.
 2. **GeoSpecter analiza la imagen** en dos pasadas: primero intenta leer GPS nativo del EXIF; si no hay, o para contrastarlo, envía la imagen a Gemini junto con las pistas visuales del entorno.
 3. **Revisa el dictamen**: ubicación, radio de incertidumbre, cronolocalización (hora/estación) y cada pista visual individual con su nivel de impacto (`CRITICAL` / `STRONG` / `SUPPORTING`).
